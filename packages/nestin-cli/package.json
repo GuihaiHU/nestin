@@ -1,0 +1,23 @@
+{
+  "name": "nestin-cli",
+  "version": "0.1.3-alpha.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "nestin-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^2.20.0",
+    "i": "^0.3.6",
+    "npm": "^6.10.2",
+    "recursive-copy": "^2.0.10"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}

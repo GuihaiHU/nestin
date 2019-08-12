@@ -1,0 +1,1 @@
+{"version":3,"file":"console.module.js","sourceRoot":"","sources":["console.module.ts"],"names":[],"mappings":";;;;;;;;AAAA,mDAA+C;AAC/C,2CAAgD;AAOhD,IAAa,mBAAmB,GAAhC,MAAa,mBAAmB;CAAG,CAAA;AAAtB,mBAAmB;IAL/B,eAAM,EAAE;IACR,eAAM,CAAC;QACN,OAAO,EAAE,CAAC,8BAAa,CAAC;QACxB,OAAO,EAAE,CAAC,8BAAa,CAAC;KACzB,CAAC;GACW,mBAAmB,CAAG;AAAtB,kDAAmB"}

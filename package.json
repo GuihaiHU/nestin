@@ -1,0 +1,25 @@
+{
+  "name": "nesta",
+  "version": "0.1.0",
+  "description": "The web framework for perfectionists with deadlines based on nestjs.",
+  "keywords": [
+    "nestjs",
+    "nest.js",
+    "nesta.js",
+    "web-framework"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.code.tencent.com/sevenfifteen/nesta.git"
+  },
+  "author": "hu.guihai@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^3.0.2",
+    "lerna": "^3.16.4"
+  }
+}

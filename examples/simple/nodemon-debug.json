@@ -1,0 +1,6 @@
+{
+  "watch": ["app", "config", "plugin", "common"],
+  "ext": "ts",
+  "ignore": ["app/**/*.spec.ts"],
+  "exec": "node --inspect-brk -r ts-node/register app/main.ts"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "nestin-common",
+  "version": "0.1.5-alpha.0",
+  "description": "A common package for nesta.js which is a web framework for deadlines based on nestjs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@nestjs/common": "^6.2.4",
+    "@nestjs/core": "^6.2.4",
+    "@nestjs/platform-express": "^6.5.3",
+    "@nestjsx/crud": "^4.2.0",
+    "@nestjsx/crud-typeorm": "^4.2.0",
+    "class-transformer": "^0.2.3",
+    "dotenv": "^8.0.0",
+    "moment": "^2.24.0",
+    "multer": "^1.4.2",
+    "nestjs-config": "^1.4.3",
+    "nestjs-console": "^1.1.4",
+    "typeorm": "^0.2.18"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}

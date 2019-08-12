@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["./app/*"],
+      "@plugin/*": ["./plugin/*"],
+      "@common/*": ["./common/*"],
+      "@artisan/*": ["./artisan/*"]
+    },
+    "lib": ["es2017", "dom"],
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["app/**/*", "config/*", "common/**/*", "plugin/**/*", "artisan/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
