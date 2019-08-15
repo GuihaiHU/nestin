@@ -1,6 +1,6 @@
 {
   "name": "nestin-plugin-restful",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "restful plugin for nestin.js",
   "main": "lib/index.js",
   "scripts": {

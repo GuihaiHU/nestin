@@ -1,6 +1,6 @@
 {
   "name": "nestin-plugin-wechat",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "wechat package for nestin",
   "main": "index.js",
   "scripts": {

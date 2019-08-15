@@ -1,6 +1,6 @@
 {
   "name": "nestin-common",
-  "version": "0.1.5-alpha.0",
+  "version": "0.1.5-alpha.1",
   "description": "A common package for nesta.js which is a web framework for deadlines based on nestjs",
   "main": "index.js",
   "directories": {
@@ -28,6 +28,5 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.5.3"
-  },
-  "peerDependencies": {}
+  }
 }
