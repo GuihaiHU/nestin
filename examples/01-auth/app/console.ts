@@ -15,7 +15,6 @@ import {
 BootstrapConsole.init({ module: AppModule })
   .then(({ app, boot }) => {
     // do something with your app container if you need (app)
-    console.log(app.get(Logger));
     app.useLogger(app.get(Logger));
     initializeTransactionalContext(); // Initialize cls-hooked
     patchTypeORMRepositoryWithBaseRepository(); // patch Repository with BaseRepository.
