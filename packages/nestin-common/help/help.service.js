@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const nestjs_config_1 = require("nestjs-config");
@@ -75,7 +76,7 @@ let HelpService = class HelpService {
 };
 HelpService = __decorate([
     common_1.Injectable(),
-    __metadata("design:paramtypes", [nestjs_config_1.ConfigService])
+    __metadata("design:paramtypes", [typeof (_a = typeof nestjs_config_1.ConfigService !== "undefined" && nestjs_config_1.ConfigService) === "function" ? _a : Object])
 ], HelpService);
 exports.HelpService = HelpService;
 //# sourceMappingURL=help.service.js.map

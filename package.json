@@ -20,6 +20,8 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^3.0.2",
-    "lerna": "^3.16.4"
-  }
+    "lerna": "^3.16.4",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "dependencies": {}
 }

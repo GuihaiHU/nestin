@@ -1,0 +1,26 @@
+{
+  "name": "nestin-plugin-wechat",
+  "version": "0.0.1",
+  "description": "wechat package for nestin",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^6.5.3",
+    "@nestjs/swagger": "^3.1.0",
+    "@sigodenjs/wechatpay": "^2.1.1",
+    "express": "^4.17.1",
+    "nest-schedule": "^0.6.3",
+    "nestjs-config": "^1.4.3",
+    "nestjs-console": "^1.2.0",
+    "passport-strategy": "^1.0.0",
+    "wechat-oauth": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/passport-strategy": "^0.2.35"
+  }
+}

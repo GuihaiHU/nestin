@@ -16,14 +16,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-const crud_typeorm_1 = require("@nestjsx/crud-typeorm");
 const typeorm_1 = require("typeorm");
 const nestjs_config_1 = require("nestjs-config");
-let CommonService = class CommonService extends crud_typeorm_1.TypeOrmCrudService {
+let CommonService = class CommonService {
     constructor(repo) {
-        super(repo);
+        this.repo = repo;
         this.logger = new common_1.Logger();
     }
     findOrCreate(info) {
@@ -35,45 +35,10 @@ let CommonService = class CommonService extends crud_typeorm_1.TypeOrmCrudServic
             return [entity, false];
         });
     }
-    updateEntity(entity, info) {
-        return __awaiter(this, void 0, void 0, function* () {
-            let e;
-            if (isFinite(entity)) {
-                e = yield this.repo.findOneOrFail(entity);
-            }
-            else {
-                e = entity;
-            }
-            Object.assign(e, info);
-            return this.repo.save(e);
-        });
-    }
-    getOnly() {
-        return __awaiter(this, void 0, void 0, function* () {
-            return this.repo.findOne();
-        });
-    }
-    updateOnly(entity) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const origin = yield this.getOnly();
-            return this.repo.save(Object.assign({}, origin, entity));
-        });
-    }
-    deleteAll() {
-        return __awaiter(this, void 0, void 0, function* () {
-            if (process.env.NODE_ENV === 'test') {
-                yield this.repo
-                    .createQueryBuilder()
-                    .delete()
-                    .where('id > 0')
-                    .execute();
-            }
-        });
-    }
 };
 __decorate([
     common_1.Inject(nestjs_config_1.ConfigService),
-    __metadata("design:type", nestjs_config_1.ConfigService)
+    __metadata("design:type", typeof (_a = typeof nestjs_config_1.ConfigService !== "undefined" && nestjs_config_1.ConfigService) === "function" ? _a : Object)
 ], CommonService.prototype, "configService", void 0);
 CommonService = __decorate([
     common_1.Injectable(),

@@ -1,0 +1,32 @@
+{
+  "name": "nestin-plugin-redis",
+  "version": "0.0.1",
+  "description": "ioredis for nestin with nestjs-config",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuihaiHU/nestin.git"
+  },
+  "keywords": [
+    "nest.js",
+    "nestin",
+    "redis"
+  ],
+  "author": "hu.guihai@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuihaiHU/nestin/issues"
+  },
+  "homepage": "https://github.com/GuihaiHU/nestin#readme",
+  "dependencies": {
+    "@nestjs/common": "^6.5.3",
+    "ioredis": "^4.14.0",
+    "nestjs-config": "^1.4.3"
+  },
+  "devDependencies": {
+    "@types/ioredis": "^4.0.14"
+  }
+}

@@ -10,7 +10,7 @@
     "experimentalDecorators": true,
     "target": "es6",
     "sourceMap": true,
-    "outDir": "./dist",
+    "outDir": ".",
     "baseUrl": ".",
     "paths": {},
     "lib": ["es2017", "dom"],

@@ -1,0 +1,24 @@
+{
+  "name": "nestin-plugin-restful",
+  "version": "0.0.1",
+  "description": "restful plugin for nestin.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx tsc -b"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^6.5.3",
+    "@nestjs/core": "^6.5.3",
+    "@nestjs/swagger": "^3.1.0",
+    "class-validator": "^0.10.0",
+    "nestjs-config": "^1.4.3",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "peerDependencies": {
+    "class-validator": "^0.9.1"
+  }
+}

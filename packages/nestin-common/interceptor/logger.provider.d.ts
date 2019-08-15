@@ -1,5 +1,5 @@
 import { LoggingInterceptor } from './logger.interceptor';
 export declare const loggerProvider: {
-    provide: string;
+    provide: any;
     useClass: typeof LoggingInterceptor;
 };

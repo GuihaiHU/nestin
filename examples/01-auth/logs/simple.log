@@ -1,0 +1,72 @@
+[2019-08-13T19:55:41.845] [INFO] system - AppController {/api/}: RoutesResolver
+[2019-08-13T19:55:41.852] [INFO] system - Mapped {/, GET} route RouterExplorer
+[2019-08-13T19:55:41.852] [INFO] system - RoleController {/api/role}: RoutesResolver
+[2019-08-13T19:55:41.853] [INFO] system - AuthUserManagerAdminController {/api/admin/user/manager}: RoutesResolver
+[2019-08-13T19:55:41.855] [INFO] system - Mapped {/, GET} route RouterExplorer
+[2019-08-13T19:55:41.856] [INFO] system - Mapped {/:id, GET} route RouterExplorer
+[2019-08-13T19:55:41.857] [INFO] system - Mapped {/, POST} route RouterExplorer
+[2019-08-13T19:55:41.858] [INFO] system - Mapped {/:id, PUT} route RouterExplorer
+[2019-08-13T19:55:41.859] [INFO] system - Mapped {/:id, PATCH} route RouterExplorer
+[2019-08-13T19:55:41.860] [INFO] system - Mapped {/:id, DELETE} route RouterExplorer
+[2019-08-13T19:55:41.861] [INFO] system - AuthUserCustomerAdminController {/api/admin/user/customer}: RoutesResolver
+[2019-08-13T19:55:41.862] [INFO] system - AuthUserController {/api/user}: RoutesResolver
+[2019-08-13T19:55:41.863] [INFO] system - Mapped {/phone, PUT} route RouterExplorer
+[2019-08-13T19:55:41.864] [INFO] system - Mapped {/user-info, PUT} route RouterExplorer
+[2019-08-13T19:55:41.865] [INFO] system - AuthLocalController {/api/auth}: RoutesResolver
+[2019-08-13T19:55:41.866] [INFO] system - Mapped {/admin/login, POST} route RouterExplorer
+[2019-08-13T19:55:41.867] [INFO] system - Mapped {/login/wechat-mini, POST} route RouterExplorer
+[2019-08-13T19:55:41.871] [INFO] system - Nest application successfully started NestApplication
+[2019-08-13T19:56:35.578] [INFO] system - AppController {/api/}: RoutesResolver
+[2019-08-13T19:56:35.583] [INFO] system - Mapped {/, GET} route RouterExplorer
+[2019-08-13T19:56:35.584] [INFO] system - RoleController {/api/role}: RoutesResolver
+[2019-08-13T19:56:35.585] [INFO] system - AuthUserManagerAdminController {/api/admin/user/manager}: RoutesResolver
+[2019-08-13T19:56:35.587] [INFO] system - Mapped {/, GET} route RouterExplorer
+[2019-08-13T19:56:35.588] [INFO] system - Mapped {/:id, GET} route RouterExplorer
+[2019-08-13T19:56:35.590] [INFO] system - Mapped {/, POST} route RouterExplorer
+[2019-08-13T19:56:35.591] [INFO] system - Mapped {/:id, PUT} route RouterExplorer
+[2019-08-13T19:56:35.593] [INFO] system - Mapped {/:id, PATCH} route RouterExplorer
+[2019-08-13T19:56:35.594] [INFO] system - Mapped {/:id, DELETE} route RouterExplorer
+[2019-08-13T19:56:35.595] [INFO] system - AuthUserCustomerAdminController {/api/admin/user/customer}: RoutesResolver
+[2019-08-13T19:56:35.595] [INFO] system - AuthUserController {/api/user}: RoutesResolver
+[2019-08-13T19:56:35.596] [INFO] system - Mapped {/phone, PUT} route RouterExplorer
+[2019-08-13T19:56:35.597] [INFO] system - Mapped {/user-info, PUT} route RouterExplorer
+[2019-08-13T19:56:35.598] [INFO] system - AuthLocalController {/api/auth}: RoutesResolver
+[2019-08-13T19:56:35.599] [INFO] system - Mapped {/admin/login, POST} route RouterExplorer
+[2019-08-13T19:56:35.600] [INFO] system - Mapped {/login/wechat-mini, POST} route RouterExplorer
+[2019-08-13T19:56:35.605] [INFO] system - Nest application successfully started NestApplication
+[2019-08-13T19:58:09.944] [INFO] system - AppController {/api/}: RoutesResolver
+[2019-08-13T19:58:09.950] [INFO] system - Mapped {/, GET} route RouterExplorer
+[2019-08-13T19:58:09.951] [INFO] system - RoleController {/api/role}: RoutesResolver
+[2019-08-13T19:58:09.952] [INFO] system - AuthUserManagerAdminController {/api/admin/user/manager}: RoutesResolver
+[2019-08-13T19:58:09.953] [INFO] system - Mapped {/, GET} route RouterExplorer
+[2019-08-13T19:58:09.955] [INFO] system - Mapped {/:id, GET} route RouterExplorer
+[2019-08-13T19:58:09.955] [INFO] system - Mapped {/, POST} route RouterExplorer
+[2019-08-13T19:58:09.956] [INFO] system - Mapped {/:id, PUT} route RouterExplorer
+[2019-08-13T19:58:09.957] [INFO] system - Mapped {/:id, PATCH} route RouterExplorer
+[2019-08-13T19:58:09.958] [INFO] system - Mapped {/:id, DELETE} route RouterExplorer
+[2019-08-13T19:58:09.959] [INFO] system - AuthUserCustomerAdminController {/api/admin/user/customer}: RoutesResolver
+[2019-08-13T19:58:09.960] [INFO] system - AuthUserController {/api/user}: RoutesResolver
+[2019-08-13T19:58:09.961] [INFO] system - Mapped {/phone, PUT} route RouterExplorer
+[2019-08-13T19:58:09.962] [INFO] system - Mapped {/user-info, PUT} route RouterExplorer
+[2019-08-13T19:58:09.963] [INFO] system - AuthLocalController {/api/auth}: RoutesResolver
+[2019-08-13T19:58:09.964] [INFO] system - Mapped {/admin/login, POST} route RouterExplorer
+[2019-08-13T19:58:09.965] [INFO] system - Mapped {/login/wechat-mini, POST} route RouterExplorer
+[2019-08-13T19:58:09.973] [INFO] system - Nest application successfully started NestApplication
+[2019-08-15T14:28:50.486] [INFO] system - AppController {/api/}: RoutesResolver
+[2019-08-15T14:28:50.492] [INFO] system - Mapped {/, GET} route RouterExplorer
+[2019-08-15T14:28:50.493] [INFO] system - RoleController {/api/role}: RoutesResolver
+[2019-08-15T14:28:50.494] [INFO] system - AuthUserManagerAdminController {/api/admin/user/manager}: RoutesResolver
+[2019-08-15T14:28:50.496] [INFO] system - Mapped {/, GET} route RouterExplorer
+[2019-08-15T14:28:50.497] [INFO] system - Mapped {/:id, GET} route RouterExplorer
+[2019-08-15T14:28:50.498] [INFO] system - Mapped {/, POST} route RouterExplorer
+[2019-08-15T14:28:50.499] [INFO] system - Mapped {/:id, PUT} route RouterExplorer
+[2019-08-15T14:28:50.500] [INFO] system - Mapped {/:id, PATCH} route RouterExplorer
+[2019-08-15T14:28:50.501] [INFO] system - Mapped {/:id, DELETE} route RouterExplorer
+[2019-08-15T14:28:50.502] [INFO] system - AuthUserCustomerAdminController {/api/admin/user/customer}: RoutesResolver
+[2019-08-15T14:28:50.502] [INFO] system - AuthUserController {/api/user}: RoutesResolver
+[2019-08-15T14:28:50.504] [INFO] system - Mapped {/phone, PUT} route RouterExplorer
+[2019-08-15T14:28:50.505] [INFO] system - Mapped {/user-info, PUT} route RouterExplorer
+[2019-08-15T14:28:50.505] [INFO] system - AuthLocalController {/api/auth}: RoutesResolver
+[2019-08-15T14:28:50.506] [INFO] system - Mapped {/admin/login, POST} route RouterExplorer
+[2019-08-15T14:28:50.507] [INFO] system - Mapped {/login/wechat-mini, POST} route RouterExplorer
+[2019-08-15T14:28:50.512] [INFO] system - Nest application successfully started NestApplication
