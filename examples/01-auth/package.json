@@ -43,7 +43,7 @@
     "@types/dotenv": "^6.1.1",
     "@types/lodash": "^4.14.133",
     "ansi-colors": "^3.2.4",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "chalk": "^2.4.2",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.9.1",
