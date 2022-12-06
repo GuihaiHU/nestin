@@ -12,7 +12,7 @@
   "dependencies": {
     "@nestjs/common": "^6.2.4",
     "@nestjs/core": "^6.5.3",
-    "@nestjs/platform-express": "^6.5.3",
+    "@nestjs/platform-express": "^9.2.1",
     "@nestjs/swagger": "^3.1.0",
     "@nestjsx/crud": "^4.2.0",
     "@nestjsx/crud-typeorm": "^4.2.0",
